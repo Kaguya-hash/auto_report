@@ -1,40 +1,34 @@
-# Clinical Reporting & Autism Screening Assistant | Java Desktop Application
+# Clinical Reporting & Autism Screening Assistant | Java Desktop Prototype
 
-Clinical Reporting & Autism Screening Assistant is an early-stage Java desktop application being developed for clinical environments, with the goal of assisting healthcare professionals in patient reporting workflows and automating calculations used in early-age autism screening assessments.
+Clinical Reporting & Autism Screening Assistant is an early-stage Java desktop prototype being explored for potential use in clinical reporting workflows and autism screening support.
 
-The project is currently in a foundational research and development phase, as implementation depends on ongoing collaboration and domain knowledge provided by medical professionals.
+At this stage, the repository is primarily a research and experimentation base. The code is still in an initial and incomplete state, and the project depends on ongoing domain input from healthcare professionals to define the actual workflow, calculation logic, and user requirements.
 
-Built as a lightweight Java application, the project focuses on usability, structured reporting, and support for clinical workflows.
+The long-term goal is to build a lightweight desktop application that can support structured reporting and assist with screening-related calculations in a way that is practical, usable, and clinically aligned.
 
----
+## Current Focus
 
-# Features
+* **Structure Exploration:** Researching the optimal architecture for a clinical desktop application.
+* **Workflow Definition:** Defining reporting and healthcare workflow requirements.
+* **Calculation Support:** Investigating robust methods for screening-related calculation support.
+* **Technical Foundation:** Establishing a clean baseline for future implementation phases.
+* **Domain Alignment:** Gathering guidance from medical professionals before building out the final workflow.
 
-- Structured clinical reporting support
-- Automation of autism screening-related calculations
-- Lightweight Java desktop architecture
-- Usability-oriented interface design
-- Research-driven and extensible foundation for future clinical tools
+## Technologies Used
 
----
+* **Language:** Java
+* **Application Type:** Desktop Application
 
-# Technologies Used
+## Project Status
 
-- **Language:** Java
-- **Application Type:** Desktop Application
+> ⚠️ **Important Note:** This project is in a very early experimental stage.
 
----
+The current repository should be considered a prototype workspace rather than a finished application. Implementation details, UI structure, and business logic are still being defined. The final design depends heavily on collaboration with medical professionals and further research.
 
-# Project Status
+## GitHub Repository
 
-This project is currently experimental and under active research and development.
-
-The implementation process depends heavily on collaboration with healthcare professionals to ensure that the application's workflows and calculations align with real clinical needs and practices.
+💻 [https://github.com/Kaguya-hash/auto_report](https://github.com/Kaguya-hash/auto_report)
 
 ---
 
-# GitHub Repository
-
-💻 https://github.com/Kaguya-hash/auto_report
-
-> Experimental project — follow the repository for future updates and development progress.
+*Early-stage experimental project. The repository is under active development and currently serves as a technical and research foundation.*

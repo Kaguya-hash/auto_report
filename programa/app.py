@@ -13,8 +13,8 @@ from PySide6.QtWidgets import (
     QMessageBox,
 )
 
-from .encrypt_secret import build_key_data
-from .build_report_program import build_report
+from encrypt_secret import build_key_data
+from build_report_program import build_report
 
 CONFIG_ENC_FILE = Path(__file__).resolve().parent.parent / "data" / "secret_data.enc"
 CONFIG_ENV = Path(__file__).resolve().parent.parent / "data" / ".env"

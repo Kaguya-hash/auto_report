@@ -17,8 +17,8 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
-from .secure_config import load_config
-from .engine import evaluate
+from secure_config import load_config
+from engine import evaluate
 
 from pathlib import Path
 

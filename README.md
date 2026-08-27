@@ -100,6 +100,8 @@ The real configuration is considerably richer — it also carries the clinical w
 
 ## Current Status
 
+**Project status:** the application is functional — PDF reading, scoring, and Word report generation all work end to end. Development is currently paused, with further work planned once additional input is received from the collaborating clinician.
+
 Requirements, scoring rules, report wording, and validation criteria are being refined together with the collaborating clinician. Treat the application as a development and research tool while that work continues. The current implementation covers:
 
 - A small Windows desktop interface built with PySide6.

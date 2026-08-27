@@ -1,0 +1,16 @@
+*
+
+!.gitignore
+
+!setup.bat
+!uninstall.bat
+
+!programa/
+!programa/app.py
+!programa/build_report_program.py
+!programa/encrypt_secret.py
+!programa/engine.py
+!programa/requirements.txt
+!programa/secure_config.py
+
+!data/

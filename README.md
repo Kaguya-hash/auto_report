@@ -17,6 +17,7 @@ The project began as a Java prototype and was later reimplemented in Python. Its
 - [Using the Application](#using-the-application)
 - [Project Layout](#project-layout)
 - [Security and Privacy](#security-and-privacy)
+- [Roadmap](#roadmap)
 - [Dependencies](#dependencies)
 - [Development Notes](#development-notes)
 - [Testing and Validation](#testing-and-validation)
@@ -183,8 +184,13 @@ This project may be used around sensitive clinical information. Before handling 
 - Do not commit patient PDFs, generated reports, plaintext configuration, or `data\.env`.
 - Do not place patient data in issue reports, screenshots, logs, or public repositories.
 - The encrypted configuration protects its contents at rest, but anyone with access to both `secret_data.enc` and its key can decrypt it.
+- Today, that key is itself stored in a plain file (`data\.env`) sitting next to the encrypted configuration. Anyone with filesystem access to the installation folder effectively has access to both, which means the encryption mainly guards against casual inspection rather than against someone who can browse the installed files. See [Roadmap](#roadmap) for the planned fix.
 - The current prototype is not a complete security or compliance solution and has not been assessed against Swiss healthcare, hospital, or data-protection requirements.
 - Verify that reports are written only to an approved location, and remove temporary or obsolete copies according to the responsible institution's policy.
+
+## Roadmap
+
+- **Move the decryption key out of the filesystem.** The configuration loader already exposes a `use_env_file: bool = False` option that, when enabled, looks up the decryption key from an OS-level environment variable instead of reading it from `data\.env`. The planned next step is to let the user grant permission to store the key in the system environment during setup, rather than as a plain file next to `secret_data.enc`. Until that flow is built, the key remains on disk alongside the encrypted data, which is the limitation described above.
 
 ## Dependencies
 

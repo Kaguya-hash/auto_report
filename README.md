@@ -2,7 +2,7 @@
 
 Auto Report is a Windows desktop application that turns a completed PDF questionnaire into a structured Word report. A user selects a PDF, the application reads its form fields, applies a set of configurable scoring rules, and produces a `.docx` report with the calculated values and the corresponding explanatory text.
 
-The project began as a Java prototype and was later reimplemented in Python. Its current goal is to explore a clean workflow architecture and a rule engine that can support a future clinical reporting tool, developed in direct collaboration with a Swiss-based medical specialist.
+Its current goal is to explore a clean workflow architecture and a rule engine that can support a future clinical reporting tool, developed in direct collaboration with a Swiss-based medical specialist.
 
 > **Important:** This software is an early-stage research prototype. It is **not** a medical device, diagnostic system, or substitute for clinical judgement. It has not been clinically validated, certified, or approved for patient care. Every generated report must be reviewed by a qualified clinician before it is used for any purpose.
 

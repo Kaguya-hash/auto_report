@@ -6,11 +6,17 @@
 !uninstall.bat
 
 !programa/
+programa/*
+
 !programa/app.py
 !programa/build_report_program.py
 !programa/encrypt_secret.py
 !programa/engine.py
 !programa/requirements.txt
 !programa/secure_config.py
+!programa/requirements.txt
+!programa/icon.ico
 
 !data/
+data/*
+!data/.gitkeep

@@ -16,7 +16,3 @@ programa/*
 !programa/secure_config.py
 !programa/requirements.txt
 !programa/icon.ico
-
-!data/
-data/*
-!data/.gitkeep

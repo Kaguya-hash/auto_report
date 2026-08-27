@@ -16,8 +16,10 @@ from PySide6.QtWidgets import (
 from encrypt_secret import build_key_data
 from build_report_program import build_report
 
-CONFIG_ENC_FILE = Path(__file__).resolve().parent.parent / "data" / "secret_data.enc"
-CONFIG_ENV = Path(__file__).resolve().parent.parent / "data" / ".env"
+CONFIG_DATA = Path(__file__).resolve().parent.parent / "data"
+
+CONFIG_ENC_FILE = CONFIG_DATA / "secret_data.enc"
+CONFIG_ENV = CONFIG_DATA / ".env"
 
 
 class ReportWindow(QWidget):
@@ -124,6 +126,8 @@ class ReportWindow(QWidget):
 
 
 def main():
+    CONFIG_DATA.mkdir(parents=True, exist_ok=True)
+
     app = QApplication(sys.argv)
     window = ReportWindow()
     window.show()
